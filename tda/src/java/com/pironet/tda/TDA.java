@@ -26,7 +26,6 @@ import com.pironet.tda.utils.Browser;
 import com.pironet.tda.utils.HistogramTableModel;
 import com.pironet.tda.utils.MonitorComparator;
 import com.pironet.tda.utils.PrefManager;
-import com.pironet.tda.utils.ResourceManager;
 import com.pironet.tda.utils.StatusBar;
 import com.pironet.tda.utils.SwingWorker;
 import com.pironet.tda.utils.TableSorter;
