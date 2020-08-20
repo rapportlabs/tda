@@ -289,6 +289,8 @@ public class SunJDKParser extends AbstractDumpParser {
                                 getBis().reset();
                             }
 
+                            getBis().mark(getMarkSize());
+
                             if (!checkThreadDumpStatData(overallTDI)) {
                                 // no statistical data found, set back original position.
                                 getBis().reset();
