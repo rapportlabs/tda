@@ -3,6 +3,10 @@
 <img src="https://raw.githubusercontent.com/irockel/tda/master/tda-main-screen.png" width="700"/>
 
 <h2>News</h2>
+<h3>2020-08-21 TDA 2.4 released</h3>
+This release fixed parsing of JDK 11 Thread dumps and provides integration for VisualVM 2.0.
+For Downloads and Release Notes see here: https://github.com/irockel/tda/releases/tag/2.4
+
 <h3>2017-11-16 Migrated Online-Help to GitHub Wiki</h3>
 The broken Online-Help is migrated to the Wiki and is available again.
 
