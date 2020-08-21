@@ -285,6 +285,8 @@ public class TDA extends JPanel implements ListSelectionListener, TreeSelectionL
         splitPane.setDividerSize(DIVIDER_SIZE);
         splitPane.setContinuousLayout(true);
         
+        splitPane.setForeground(Color.red);
+        
         if(this.runningAsVisualVMPlugin) {
             setOpaque(true);
             setBackground(Color.WHITE);            
@@ -1226,6 +1228,7 @@ public class TDA extends JPanel implements ListSelectionListener, TreeSelectionL
             htmlPane.setContentType("text/html");
             htmlPane.setText(text);
             htmlPane.setCaretPosition(0);
+            htmlPane.setForeground(Color.BLACK);
         } else {
             htmlPane.setText("");
         }

@@ -8,6 +8,8 @@ Note: This is the 2.4 release of the software, for an usage overview see Help/Ov
 Changes from 2.3.4 are:
 * Compiled using JDK 1.8 so Source Level now is 1.8
 * fixed #20: updated tda visual vm plugin to Visual VM 2.0
+* fixed #21: fixed parsing of jdk 11 thread dumps.
+* fixed colors for dark UIs
 * tda.sh can now be called from everywhere
 
 Changes from 2.3.3 are:
